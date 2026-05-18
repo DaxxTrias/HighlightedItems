@@ -13,7 +13,6 @@
     <OutputPath Condition="'$(ExApiPluginOutputPath)' != ''">$(ExApiPluginOutputPath)$(MSBuildProjectName)</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="HighlightedItems-master\**\*.cs" />
     <None Remove="images\*.png" />
   </ItemGroup>
   <ItemGroup>
